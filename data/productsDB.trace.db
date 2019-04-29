@@ -1,3 +1,6 @@
 2019-04-29 15:36:21 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLException: Table "PLAY_EVOLUTIONS" not found; SQL statement:
 select id, hash, apply_script, revert_script, state, last_problem from play_evolutions where state like 'applying_%' [42102-197]
+2019-04-29 16:11:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "insert into item_on_sale (id,category_id,name,description,stock,price) values ( 1,1,'Samsung Galaxy s10','The next generation of Galaxy has arrived. Featuring an Infinity-O display, Wireless Power Sharing and Samsung's TrueVision camera system. The Galaxy S10 also features an in-screen ultrasonic fingerprint scanner to keep your phone secure[*]',34, 849.99 )"; SQL statement:
+insert into item_on_sale (id,category_id,name,description,stock,price) values ( 1,1,'Samsung Galaxy s10','The next generation of Galaxy has arrived. Featuring an Infinity-O display, Wireless Power Sharing and Samsung's TrueVision camera system. The Galaxy S10 also features an in-screen ultrasonic fingerprint scanner to keep your phone secure',34, 849.99 ) [42000-197]

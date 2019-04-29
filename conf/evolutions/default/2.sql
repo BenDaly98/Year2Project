@@ -5,20 +5,13 @@
 delete from item_on_sale;
 delete from category;
  
-insert into category (id,name) values ( 1,'Electrical and Electronics' );
-insert into category (id,name) values ( 2,'Books' );
-insert into category (id,name) values ( 3,'Clothes' );
-insert into category (id,name) values ( 4,'Household' );
-insert into category (id,name) values ( 5,'Musical Instruments' );
-insert into category (id,name) values ( 6,'Sports Equipment' );
+insert into category (id,name) values ( 1,'Mobile Devices' );
+
  
-insert into item_on_sale (id,category_id,name,description,stock,price) values ( 1,1,'Television','Sony 42" LCD',1, 100.00 );
-insert into item_on_sale (id,category_id,name,description,stock,price) values ( 2,2,'Book','Mysteries of the Universe',1,3.00 );
-insert into item_on_sale (id,category_id,name,description,stock,price) values ( 3,3,'Fluffy Socks','Warm extra long socks (new)',100,2.00 );
-insert into item_on_sale (id,category_id,name,description,stock,price) values ( 4,4,'Tumbler Glass','Reject tumbler glasses (new)',40,1.00 );
-insert into item_on_sale (id,category_id,name,description,stock,price) values ( 5,5,'Piano','Grand, in need of tuning',1,99.00 );
-insert into item_on_sale (id,category_id,name,description,stock,price) values ( 6,4,'Chair','Comfortable armchair in good condition',1,50.00 );
-insert into item_on_sale (id,category_id,name,description,stock,price) values ( 7,1,'Washing Machine','1600rpm spin, A+++ rated, 10KG',2,300.00 );
-insert into item_on_sale (id,category_id,name,description,stock,price) values ( 8,4,'Water jug','Antique cristal, 2l',2,75.00 );
-insert into item_on_sale (id,category_id,name,description,stock,price) values ( 9,6,'Rowing machine','Great for keeping fit',1,50.00 );
-insert into item_on_sale (id,category_id,name,description,stock,price) values ( 10,6,'Junior tennis raquet','Never used',2,15.00 );
+insert into item_on_sale (id,category_id,name,description,stock,price) values ( 1,1,'Samsung Galaxy s10','The next generation of Galaxy has arrived. Featuring an Infinity-O display, Wireless Power Sharing and Samsung's TrueVision camera system. The Galaxy S10 also features an in-screen ultrasonic fingerprint scanner to keep your phone secure',34, 849.99 );
+insert into item_on_sale (id,category_id,name,description,stock,price) values ( 2,1,'Samsung Galaxy s9','The Camera. Reimagined. The Galaxy S9 is packed with incredible features to help you do more than you ever imagined. With a revolutionary camera that adapts like the human eye, get ready to capture your world like never before.',56,629.99 );
+insert into item_on_sale (id,category_id,name,description,stock,price) values ( 3,1,'Apple iPhone XR 64gb','Brilliant. In every way. Powered by the same A12 processor as the iPhone Xs, the iPhone XR features one of the most advanced LCD screens ever seen on a smartphone.',52,809.99 );
+insert into item_on_sale (id,category_id,name,description,stock,price) values ( 4,1,'Apple iPhone 6s','Stronger and more powerful, the iPhone 6S features Apple's A9 processor to keep your apps running at top speed. Use Touch ID to interact with your iPhone in new ways. ',40,349.99);
+insert into item_on_sale (id,category_id,name,description,stock,price) values ( 5,1,'Apple iPhone 7','Apple iPhone 7 is the most innovative and creative iPhone yet. Your iPhone is now water and splash resistant to a rating of IP67. You will also enjoy a new audio experience with Lightning Connector EarPods',34,449.99 );
+insert into item_on_sale (id,category_id,name,description,stock,price) values ( 6,1,'Huawei p20','A pioneering camera phone from Huawei. The P20 Pro features a triple lens camera system powered by Artificial Intelligence and technology provided by Leica. Take stunning photos quickly and easily in a wide variety of conditions and view them on the gorgeous FullView display.',62,479.99 );
+insert into item_on_sale (id,category_id,name,description,stock,price) values ( 7,1,'Apple iPhone XS','Welcome to the big screens. The Apple iPhone Xs improves upon the innovations of the original iPhone X, with faster performance across the board. Face ID unlocking.',27,1099.00 );
