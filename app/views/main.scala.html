@@ -7,20 +7,19 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
 	<style>
-	 .footer { font-weight: bold; color: white; background-color: black; i}
-	 .sidecol { font-weight: bold; background-color: steelblue; }
+	 .footer { font-weight: bold; color: white; background-color: black; }
+	 .sidecol { font-weight: bold; background-color: black; color: white; }
 	 .sidecol h2 { font-weight: bold; }
 	 .midcol h1 { text-align: center; font-weight: bold; }
-	 .midcol h3 { text-align: center; color: steelblue; }
-	 .redtext { color: red; }
+	 .midcol h3 { text-align: center; color: black;)
 	</style>
-	<title>OFM @pagename</title>
+	<title>BestPhones.ie @pagename</title>
     </head>
     <body>
 	<nav class="navbar navbar-inverse">
 	    <div class="container-fluid">
 		<div class="navbar-header">
-		    <a class="navbar-brand" href="#">WebSiteName</a>
+		    <a class="navbar-brand" href="#">BestPhones</a>
 		</div>
 		<ul class="nav navbar-nav">
 		    <li @if(pagename == "Home"){class="active"}><a href="@routes.HomeController.index()">Home</a></li>
@@ -41,10 +40,9 @@
 	    <div class="row">
 		<div class="col-sm-2">
 		    <div class="well sidecol">
-			<h2>News</h2>
-			<h3>New product sub-category</h3>
-			<p>Following the sudden and unprecedented volumes of trade in fashion paper bags, our <span class="redtext">bags</span> category has been extended to include a seventh subcategory, <span class="redtext">paper handbags</span>.
-		    </div>
+			<h2>FLASH SALE</h2>
+			<h3>Switch to Bill-Pay and Save 35%!</h3>
+			</p>Switch to bill pay today and and save 35% on the first 6 months of your contract on selected phones. **LIMITED TIME ONLY** </p>		    </div>
 		</div>
 		<div class="col-sm-8">
 		    <div class="midcol">
@@ -54,15 +52,15 @@
 		<div class="col-sm-2">
 		    <div class="well sidecol">
 			<h2>Events</h2>
-			<h3>The 153rd Meet for Real event</h3>
-			<p>The popular <span class="redtext">Meet for Real</span> event takes place this Sunday at the Square Park, from 7am until 1pm. It will yet again give flea-market enthusiasts a chance to engage in a bit of live bartering and banter with their fellow sitesters.</p>
+			<h3>1st birthday of Best Phones</h3>
+			<p>Switch to bill pay today and and save 35% on the first 6 months of your contract on selected phones. **LIMITED TIME ONLY**</p>
 		    </div>
 		</div>
 	    </div>
 	    <div class="row">
 		<div class="col-sm-12">
 		    <div class="well footer">
-			Website created by ABC Sights
+			<h5>Website created by Ben Daly, Lubo Kitov, Liam Yambao.</h5>
 		    </div>
 		</div>
 	    </div>
@@ -72,3 +70,4 @@
 </html>
 
 
+	 }

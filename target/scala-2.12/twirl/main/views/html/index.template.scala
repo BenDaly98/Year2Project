@@ -32,9 +32,14 @@ object index extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Html
 
 Seq[Any](format.raw/*1.27*/("""
 """),_display_(/*2.2*/main("Home", user)/*2.20*/{_display_(Seq[Any](format.raw/*2.21*/("""
-	"""),format.raw/*3.2*/("""<h1>Welcome to the Online Flea Market!</h1>
-	<h3>The place where you can buy anything and sell anyting<br/> (as long as it is legal and morally sound)</h3>
-""")))}),format.raw/*5.2*/("""
+	"""),format.raw/*3.2*/("""<h1>Welcome to Best Phones</h1>
+	<h3>The place where you can buy the best phones on the market at an unbeatable price!</h3>
+	<div class="col-sm-4">
+	</div>
+	<div class="col-sm-5">
+	<img src="https://i-cdn.phonearena.com/images/article/108802-two_lead/All-the-cool-new-iPhone-XS-Max-and-XR-features-you-mightve-missed.jpg" alt="iPhone" style="width:450px;height:480px;" class="centre" >   
+	</div>
+""")))}),format.raw/*10.2*/("""
 
 """))
       }
@@ -52,11 +57,11 @@ Seq[Any](format.raw/*1.27*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Wed Apr 24 14:17:03 IST 2019
+                  DATE: Mon Apr 29 14:22:42 IST 2019
                   SOURCE: /home/wdd/Year2project/app/views/index.scala.html
-                  HASH: 4cd752082dea538a2efd59f05eee4b753c5b0616
-                  MATRIX: 959->1|1079->26|1107->29|1133->47|1171->48|1200->51|1388->210
-                  LINES: 28->1|33->1|34->2|34->2|34->2|35->3|37->5
+                  HASH: 12a8cfd9f264a9255a29e52d4e04e8d2891f9a55
+                  MATRIX: 959->1|1079->26|1107->29|1133->47|1171->48|1200->51|1635->456
+                  LINES: 28->1|33->1|34->2|34->2|34->2|35->3|42->10
                   -- GENERATED --
               */
           

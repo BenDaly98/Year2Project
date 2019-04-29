@@ -33,7 +33,9 @@ object about extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Html
 Seq[Any](format.raw/*1.27*/("""
 """),_display_(/*2.2*/main("About Us", user)/*2.24*/ {_display_(Seq[Any](format.raw/*2.26*/("""
 	"""),format.raw/*3.2*/("""<h1>About us</h1>
-	<h3>We are the amazing, brilliant, magnificent, one and only online flea market!</h3>
+	<h3>We are a new phone selling company, Aiming to take over the phone selling market. We have every new phone on the market and we promise to not dissapoint.</h3>
+	<h3>We are highly ambitious, and expect to grow our company so eveyone in the country thinks of us when they need or want a new phone! With over 10 years of knowledge, we have picked up skills and different techniques to continuously provide our customers with jaw dropping prices and top quality services.</h3>
+	<h3>We hope you are happy with our service. Please dont hesitate to give any feedback, and enjoy your visit to BestPhones.ie</h3>
 """)))}))
       }
     }
@@ -50,9 +52,9 @@ Seq[Any](format.raw/*1.27*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Wed Apr 24 14:17:03 IST 2019
+                  DATE: Mon Apr 29 13:59:12 IST 2019
                   SOURCE: /home/wdd/Year2project/app/views/about.scala.html
-                  HASH: eb06cc5ff17fed2749c7d1d6f53c70e7eb0833ae
+                  HASH: 9b34a32ecf9bb588e3e041c7d55108998b518990
                   MATRIX: 959->1|1079->26|1107->29|1137->51|1176->53|1205->56
                   LINES: 28->1|33->1|34->2|34->2|34->2|35->3
                   -- GENERATED --
